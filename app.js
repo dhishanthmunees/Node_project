@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = 4000;
+const PORT = 3000;
 
 // Route for homepage
 app.get("/", (req, res) => {
@@ -98,4 +98,4 @@ app.listen(PORT, () => {
   console.log(\`Server running at http://localhost:\${PORT}\`);
 });
 
-server.listen(4000);
+server.listen(3000);
